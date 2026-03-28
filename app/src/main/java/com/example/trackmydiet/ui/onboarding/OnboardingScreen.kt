@@ -125,7 +125,7 @@ private fun isStepValid(step: Int, name: String, age: String, height: String, we
 @Composable
 fun WelcomeStep(name: String, onNameChange: (String) -> Unit) {
     Text(
-        text = "Welcome to TrackMyDiet!",
+        text = "Welcome to AI nutrition coach!",
         style = MaterialTheme.typography.headlineLarge,
         fontWeight = FontWeight.Bold,
         textAlign = TextAlign.Center
